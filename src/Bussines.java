@@ -1,12 +1,10 @@
-public class Autonomous {
+public class Bussines {
     private String name;
-    private String surname;
-    private String dni;
+    private String cif;
     private Integer codClient;
     private String poblation;
-    private Integer  postalCode;
+    private Integer postalCode;
     private String province;
     private String email;
-    private Integer Telephone;
-
+    private Integer telephone;
 }

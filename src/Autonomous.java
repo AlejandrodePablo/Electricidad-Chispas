@@ -2,12 +2,12 @@ public class Autonomous implements Client {
     private String name;
     private String surname;
     private String dni;
-    private Integer codClient;
+    private String codClient;
     private String poblation;
-    private Integer  postalCode;
+    private String  postalCode;
     private String province;
     private String email;
-    private Integer telephone;
+    private String telephone;
 
     public void setName(String name) {
         this.name = name;
@@ -31,11 +31,11 @@ public class Autonomous implements Client {
     public void setDni(String dni) {
         this.dni = dni;
     }
-    public void setCodClient(Integer codClient) {
+    public void setCodClient(String codClient) {
         this.codClient = codClient;
     }
     @Override
-    public Integer getCodClient() {
+    public String getCodClient() {
         return codClient;
     }
     public void setPoblation(String poblation) {
@@ -45,11 +45,11 @@ public class Autonomous implements Client {
     public String getPoblation() {
         return poblation;
     }
-    public void setPostalCode(Integer postalCode) {
+    public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
     }
     @Override
-    public Integer getPostalCode() {
+    public String getPostalCode() {
         return postalCode;
     }
     public void setProvince(String province) {
@@ -66,11 +66,11 @@ public class Autonomous implements Client {
     public String getEmail() {
         return email;
     }
-    public void setTelephone(Integer telephone) {
+    public void setTelephone(String telephone) {
         this.telephone = telephone;
     }
     @Override
-    public Integer getTelephone() {
+    public String getTelephone() {
         return telephone;
     }
 }

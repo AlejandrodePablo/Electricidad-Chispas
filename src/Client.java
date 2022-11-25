@@ -1,9 +1,9 @@
 public interface Client {
     public String getName();
-    public Integer getCodClient();
+    public String getCodClient();
     public String getPoblation();
-    public Integer getPostalCode();
+    public String getPostalCode();
     public String getProvince();
     public String getEmail();
-    public Integer getTelephone();
+    public String getTelephone();
 }
